@@ -1,0 +1,2 @@
+favfruit = 'apple'
+print(favfruit)
