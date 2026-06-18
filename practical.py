@@ -48,11 +48,18 @@
 # print("ALl ott platforms: ",f1|f2)
 # print("platforms subscribed by only 1 friend: ",f1^f2)
 
-ap={"laptop","Mouse","Keyboard","Monitor"}
-sp={"Mouse","Monitor"}
-print("Remaining products: ",ap-sp)
-print("sold products: ",sp)
-ap.add("printer")
-print(ap)
-ap.remove("Keyboard")
-print(ap)
+# ap={"laptop","Mouse","Keyboard","Monitor"}
+# sp={"Mouse","Monitor"}
+# print("Remaining products: ",ap-sp)
+# print("sold products: ",sp)
+# ap.add("printer")
+# print(ap)
+# ap.remove("Keyboard")
+# print(ap)
+
+# m={"anu","david","riya","sam"}
+# d={"riya","sam","karthik","john"}
+# print("students participating in both events: ",m&d)
+# print("Students only in music: ",)
+
+

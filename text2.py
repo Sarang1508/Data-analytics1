@@ -273,3 +273,80 @@
 # maximum=x if x>y and z else y if y>z else z
 # print(maximum)
 
+# def find_square(num):
+#     result = num*num
+#     return result
+
+# square = find_square(3)
+# print("square : ",square)
+
+# def sum(a,b):
+#     return a+b
+
+# x=sum(15,12)
+# print(x) 
+
+# def power(a,b):
+#     return a**b
+# x=int(input("enter the number: "))
+# y=int(input("Enter power: "))
+# z=power(x,y)
+# print(f"{x} raised to {y} is: ",z)
+
+# def strong(a):
+#     x= str(a)
+#     n=len(x)
+#     total=0
+#     for i in x:
+#         total=total+i**n
+#     if total==a:
+#         print("Armstrong")
+#     else:
+#         print ("not armstrong")
+
+# y=int(input("enter number: "))
+# strong(y)
+
+# import math
+# print(math.pow(2,3))
+
+# def name(**kargs):
+#     print(kargs)
+# name(name="Anu")
+# name(name="Manu",Age="24")
+
+# sum=lambda a,b:a+b
+# print(sum(5,4))
+
+# eo=lambda a: a%2
+# result=eo(2)
+# if result ==0:
+#     print("even")
+# else:
+#     print("Odd")
+
+# a=[1,2,3,4,5]
+# double=map(lambda x: x*2,a)
+# result=list(double)
+# print(result)
+# even=list(filter(lambda x:x%2==0,a))
+# print(even)
+# from functools import reduce
+# sum=reduce(lambda x,y:x+y,a)
+# print(sum)
+
+# import main 
+# print(main.sum(5,4))
+# print(main.sub(100,99))
+try:
+    f=open('sample1.txt','x')
+except:
+    pass
+f=open('sample1.txt','w')
+f.write("Hello")
+f.write("hai")
+for i in range(11):
+    z=i*5
+    f.write(f"{i}x5={z}\n")
+f=open('sample1.txt','a')
+f.write("hello")
