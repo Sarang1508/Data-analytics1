@@ -338,15 +338,16 @@
 # import main 
 # print(main.sum(5,4))
 # print(main.sub(100,99))
-try:
-    f=open('sample1.txt','x')
-except:
-    pass
-f=open('sample1.txt','w')
-f.write("Hello")
-f.write("hai")
-for i in range(11):
-    z=i*5
-    f.write(f"{i}x5={z}\n")
-f=open('sample1.txt','a')
-f.write("hello")
+# try:
+#     f=open('sample1.txt','x')
+# except:
+#     pass
+# f=open('sample1.txt','w')
+# f.write("Hello")
+# f.write("hai")
+# for i in range(11):
+#     z=i*5
+#     f.write(f"{i}x5={z}\n")
+# f=open('sample1.txt','a')
+# f.write("hello")
+
