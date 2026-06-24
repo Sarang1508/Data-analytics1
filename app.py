@@ -108,7 +108,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-st.image("image.jpeg", use_container_width=True)
+st.image("image.webp", use_container_width=True)
 
 # =========================
 # SIDEBAR INPUTS
